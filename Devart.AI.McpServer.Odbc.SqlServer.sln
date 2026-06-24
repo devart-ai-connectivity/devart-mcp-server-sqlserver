@@ -1,0 +1,62 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.2.11415.280
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devart.AI.McpServer", "Devart.AI.McpServer\Devart.AI.McpServer.csproj", "{51478E82-3D60-4659-BAB7-73D1E4254A2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devart.AI.McpServer.Odbc", "Devart.AI.McpServer.Odbc\Devart.AI.McpServer.Odbc\Devart.AI.McpServer.Odbc.csproj", "{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devart.AI.McpServer.Odbc.SqlServer", "Devart.AI.McpServer.Odbc\Devart.AI.McpServer.Odbc.SqlServer\Devart.AI.McpServer.Odbc.SqlServer.csproj", "{DEF300F1-9F3F-449D-A0AC-54BDB9AFE950}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DebugSqlServer|Any CPU = DebugSqlServer|Any CPU
+		DebugSqlServer|x86 = DebugSqlServer|x86
+		ReleaseSqlServer|Any CPU = ReleaseSqlServer|Any CPU
+		ReleaseSqlServer|x86 = ReleaseSqlServer|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.DebugSqlServer|Any CPU.ActiveCfg = Debug|Any CPU
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.DebugSqlServer|Any CPU.Build.0 = Debug|Any CPU
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.DebugSqlServer|x86.ActiveCfg = Debug|x86
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.DebugSqlServer|x86.Build.0 = Debug|x86
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.ReleaseSqlServer|Any CPU.ActiveCfg = Release|Any CPU
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.ReleaseSqlServer|Any CPU.Build.0 = Release|Any CPU
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.ReleaseSqlServer|x86.ActiveCfg = Release|x86
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.ReleaseSqlServer|x86.Build.0 = Release|x86
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.DebugSqlServer|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.DebugSqlServer|Any CPU.Build.0 = Debug|Any CPU
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.DebugSqlServer|x86.ActiveCfg = Debug|x86
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.DebugSqlServer|x86.Build.0 = Debug|x86
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.ReleaseSqlServer|Any CPU.ActiveCfg = Release|Any CPU
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.ReleaseSqlServer|Any CPU.Build.0 = Release|Any CPU
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.ReleaseSqlServer|x86.ActiveCfg = Release|x86
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.ReleaseSqlServer|x86.Build.0 = Release|x86
+		{DEF300F1-9F3F-449D-A0AC-54BDB9AFE950}.DebugSqlServer|Any CPU.ActiveCfg = DebugSqlServer|Any CPU
+		{DEF300F1-9F3F-449D-A0AC-54BDB9AFE950}.DebugSqlServer|Any CPU.Build.0 = DebugSqlServer|Any CPU
+		{DEF300F1-9F3F-449D-A0AC-54BDB9AFE950}.DebugSqlServer|x86.ActiveCfg = DebugSqlServer|x86
+		{DEF300F1-9F3F-449D-A0AC-54BDB9AFE950}.DebugSqlServer|x86.Build.0 = DebugSqlServer|x86
+		{DEF300F1-9F3F-449D-A0AC-54BDB9AFE950}.ReleaseSqlServer|Any CPU.ActiveCfg = ReleaseSqlServer|Any CPU
+		{DEF300F1-9F3F-449D-A0AC-54BDB9AFE950}.ReleaseSqlServer|Any CPU.Build.0 = ReleaseSqlServer|Any CPU
+		{DEF300F1-9F3F-449D-A0AC-54BDB9AFE950}.ReleaseSqlServer|x86.ActiveCfg = ReleaseSqlServer|x86
+		{DEF300F1-9F3F-449D-A0AC-54BDB9AFE950}.ReleaseSqlServer|x86.Build.0 = ReleaseSqlServer|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {456EC27D-1D60-470B-A266-44E164F5B06E}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Version\Version.projitems*{2f9c1d26-5db5-4734-bd4b-f9a77c1eb56d}*SharedItemsImports = 5
+		Version\Version.projitems*{51478e82-3d60-4659-bab7-73d1e4254a2a}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
